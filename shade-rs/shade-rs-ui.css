@@ -1,0 +1,273 @@
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app//window.scss
+    File ID: 5UWpCqKhjAf
+    Class Names:
+        window -> shade-rs-window-5UWpCqKhjAf
+*/
+
+.shade-rs-window-5UWpCqKhjAf {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app/new_page.scss
+    File ID: Jta8369wWV5
+    Class Names:
+        preview-half -> shade-rs-preview-half-Jta8369wWV5
+        new-page -> shade-rs-new-page-Jta8369wWV5
+        editor-actions -> shade-rs-editor-actions-Jta8369wWV5
+        panes -> shade-rs-panes-Jta8369wWV5
+        editor-half -> shade-rs-editor-half-Jta8369wWV5
+*/
+
+.shade-rs-new-page-Jta8369wWV5 {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.shade-rs-panes-Jta8369wWV5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.shade-rs-preview-half-Jta8369wWV5 {
+  width: 50%;
+  height: 100%;
+  margin: 1em;
+  background-color: pink;
+}
+
+.shade-rs-editor-half-Jta8369wWV5 {
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  height: 100%;
+}
+
+.shade-rs-editor-half-Jta8369wWV5 textarea {
+  height: 100%;
+}
+
+.shade-rs-editor-actions-Jta8369wWV5 {
+  display: flex;
+  flex-direction: row;
+}
+
+.shade-rs-editor-actions-Jta8369wWV5 button {
+  border-radius: 0;
+}
+
+
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app/app.scss
+    File ID: SThgAUv283a
+    Class Names:
+        fps -> shade-rs-fps-SThgAUv283a
+        time -> shade-rs-time-SThgAUv283a
+        editor -> shade-rs-editor-SThgAUv283a
+        preview -> shade-rs-preview-SThgAUv283a
+        app -> shade-rs-app-SThgAUv283a
+        toolbar -> shade-rs-toolbar-SThgAUv283a
+        compiler-output -> shade-rs-compiler-output-SThgAUv283a
+*/
+
+.shade-rs-app-SThgAUv283a {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shade-rs-preview-SThgAUv283a {
+  width: 100%;
+  height: 480px;
+  background-color: #1e023d;
+}
+
+.shade-rs-editor-SThgAUv283a {
+  width: 100%;
+  height: auto;
+  font-size: .75em;
+  line-height: 1.25em;
+}
+
+.shade-rs-toolbar-SThgAUv283a {
+  display: flex;
+  flex-direction: row;
+  background-color: #6b35a7;
+}
+
+.shade-rs-toolbar-SThgAUv283a button {
+  font-size: large;
+  border-radius: 0;
+  border: 1px solid #b289e0;
+  background-color: #6b35a7;
+}
+
+.shade-rs-toolbar-SThgAUv283a button[data-toggled="data-toggled"] {
+  background-color: #b289e0;
+}
+
+.shade-rs-toolbar-SThgAUv283a button:active {
+  background-color: #b289e0;
+}
+
+.shade-rs-toolbar-SThgAUv283a .shade-rs-fps-SThgAUv283a {
+  margin-left: auto;
+  margin-right: .5em;
+}
+
+.shade-rs-toolbar-SThgAUv283a .shade-rs-time-SThgAUv283a {
+  width: 5em;
+}
+
+.shade-rs-compiler-output-SThgAUv283a {
+  border: 1px solid red;
+  white-space: pre;
+  overflow-x: scroll;
+  font-size: .75em;
+  line-height: 1.25em;
+  width: 100%;
+}
+
+.shade-rs-compiler-output-SThgAUv283a[data-hidden="data-hidden"] {
+  display: none;
+}
+
+
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app/components/icon.scss
+    File ID: V6FqG4iSjnP
+    Class Names:
+*/
+
+
+
+
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app/components/window.scss
+    File ID: NMK4vUVcZUm
+    Class Names:
+        window -> shade-rs-window-NMK4vUVcZUm
+*/
+
+.shade-rs-window-NMK4vUVcZUm {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app/editor.scss
+    File ID: 3k5D6g1QP99
+    Class Names:
+        code-half -> shade-rs-code-half-3k5D6g1QP99
+        editing -> shade-rs-editing-3k5D6g1QP99
+        highlighting -> shade-rs-highlighting-3k5D6g1QP99
+        preview-half -> shade-rs-preview-half-3k5D6g1QP99
+        editor -> shade-rs-editor-3k5D6g1QP99
+*/
+
+.shade-rs-editor-3k5D6g1QP99 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.shade-rs-preview-half-3k5D6g1QP99 {
+  margin: 2em;
+  width: 50%;
+  height: 100%;
+  background-color: pink;
+}
+
+.shade-rs-code-half-3k5D6g1QP99 {
+  margin: 2em;
+  width: 50%;
+  height: 100%;
+}
+
+.shade-rs-editing-3k5D6g1QP99, .shade-rs-highlighting-3k5D6g1QP99 {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+  width: calc(100% - 32px);
+  height: calc(100% - 32px);
+  overflow: auto;
+}
+
+.shade-rs-editing-3k5D6g1QP99, .shade-rs-highlighting-3k5D6g1QP99, .shade-rs-highlighting-3k5D6g1QP99 * {
+  font-size: 12pt;
+  font-family: monospace;
+  line-height: 15pt;
+}
+
+.shade-rs-editing-3k5D6g1QP99 {
+  z-index: 1;
+  color: #0000;
+  background: none;
+  caret-color: #fff;
+}
+
+.shade-rs-highlighting-3k5D6g1QP99 {
+  z-index: 0;
+}
+
+.shade-rs-highlighting-3k5D6g1QP99 code {
+  white-space: pre;
+  color: #fff;
+}
+
+
+
+/*
+    Crate: shade-rs
+    Input: /home/emma/code/shade-rs/shade-rs-ui/src/app/window.scss
+    File ID: iSu4WAL7Uft
+    Class Names:
+        window -> shade-rs-window-iSu4WAL7Uft
+*/
+
+.shade-rs-window-iSu4WAL7Uft {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
